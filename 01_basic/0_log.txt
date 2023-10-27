@@ -1,0 +1,3 @@
+alert() mdn on google is good for document
+
+tc39.es is having orignal documentation to read
