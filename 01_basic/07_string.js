@@ -17,3 +17,10 @@ console.log(gameName.substring(0,6))
 console.log(gameName.slice(-14, 4))
 console.log(gameName)
 
+
+const url ="https://www.india.com/game%20boy"
+
+
+
+console.log(url.replace('%20','-'))
+console.log(url.includes('india'))
