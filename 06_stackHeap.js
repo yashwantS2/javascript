@@ -14,3 +14,14 @@ employee2.email="india@gmail.com"
 
 console.log(employee2.email)
 console.log(employee.email)
+
+//push*****
+
+const car =["Audi","BMW"]
+
+console.log(car)
+
+car.push("Ferrari")
+
+
+console.log(car)
