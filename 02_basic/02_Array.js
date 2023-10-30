@@ -33,3 +33,11 @@ const Arra= Array.from(name)
 
 console.log(Arra)
 console.log(Array.isArray(Arra))//true
+
+//Converting Multiple no into Array
+
+let a = 100
+let b = 200
+let c = 300
+
+console.log(Array.of(a,b,c))//[100,200,300]
