@@ -23,3 +23,13 @@ const bigArray = [1,2,3,[2,3,4,5],6,[7,8,[9,10,11,12,13[14,15,16]]]]
 const real_val = bigArray.flat(Infinity)
 
 console.log(real_val)
+
+//converting string to Array
+
+let name = 'Yashwant Singh'
+
+console.log(Array.isArray(name))//false
+const Arra= Array.from(name)
+
+console.log(Arra)
+console.log(Array.isArray(Arra))//true
