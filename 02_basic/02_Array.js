@@ -15,3 +15,11 @@ console.log(allInfo);//it merges all and spreadd
 const betterSpread = [...state, ...city]
 
 console.log(betterSpread);
+
+//better option to shol=w all value in a row rather than seperating
+
+const bigArray = [1,2,3,[2,3,4,5],6,[7,8,[9,10,11,12,13[14,15,16]]]]
+
+const real_val = bigArray.flat(Infinity)
+
+console.log(real_val)
