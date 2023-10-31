@@ -19,3 +19,28 @@ console.log(merge);
 
 const obj5 ={...obj3,...obj4}
 console.log(obj5);
+
+const boY =[
+    {
+        id:1,
+        email :"yash@email.com"
+    },
+    {
+        id:1,
+        email :"jist@email.com"
+    },
+    {
+        id:1,
+        email :"lossi@email.com"
+    },
+]
+
+console.log(boY[1].email)
+
+console.log(Object.keys(obj3)) //printkeys of the object
+console.log(Object.values(obj3)) //print values of the object
+console.log(Object.entries(obj3)) //converted every key in array
+
+//t check if the pateicular key or propery is avilable or not
+
+console.log(obj3.hasOwnProperty('a'))
