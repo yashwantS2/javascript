@@ -30,6 +30,10 @@ console.log(userOne["age"])
 userOne.email = function(){
     console.log("yashwant@email.com")
 } 
+userOne.email2 = function(){
+    console.log(`Hey ${this.name} your Email is : yashwant@email.com`)
+} 
 
 console.log(userOne.email())
+console.log(userOne.email2())
 
