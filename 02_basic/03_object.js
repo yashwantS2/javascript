@@ -37,3 +37,5 @@ userOne.email2 = function(){
 console.log(userOne.email())
 console.log(userOne.email2())
 
+
+

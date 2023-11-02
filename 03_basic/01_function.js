@@ -32,3 +32,12 @@ function userLogIn(username = "jindal"){
 
 console.log(userLogIn("yashwant"))
 console.log(userLogIn())//jindal logged in
+//it will return all values as it does not limit itself from getting an argument
+
+function calculateSum(...num1){
+    return num1
+}
+
+console.log(calculateSum(200, 900 , 700 ))
+
+
